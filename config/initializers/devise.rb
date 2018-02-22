@@ -269,7 +269,7 @@ Devise.setup do |config|
   # The following options are available, assuming the engine is mounted as:
   #
   #     mount MyEngine, at: '/my_engine'
-  #
+  #"
   # The router that invoked `devise_for`, in the example above, would be:
   # config.router_name = :my_engine
   #
@@ -278,4 +278,6 @@ Devise.setup do |config|
   # config.omniauth_path_prefix = '/my_engine/users/auth'
   config.omniauth :twitter, "awOGX8TGBUIZoRSS0Pd8GqFtm",
     "5aFh5FjXZJGdDD2brxMeDjnyLfX7xkbWayQwOiuOBvhhggmlO2"
+  # mail setting
+  config.mailer_sender = "メールアドレス"
 end
