@@ -278,7 +278,7 @@ Devise.setup do |config|
   # config.omniauth_path_prefix = '/my_engine/users/auth'
   config.omniauth :twitter, "awOGX8TGBUIZoRSS0Pd8GqFtm",
     "5aFh5FjXZJGdDD2brxMeDjnyLfX7xkbWayQwOiuOBvhhggmlO2"
-  # mail setting
+  # mail settings
   config.mailer_sender = "メールアドレス"
   # lock sessings
   config.unlock_strategy = :email
