@@ -280,4 +280,8 @@ Devise.setup do |config|
     "5aFh5FjXZJGdDD2brxMeDjnyLfX7xkbWayQwOiuOBvhhggmlO2"
   # mail setting
   config.mailer_sender = "メールアドレス"
+  # lock sessings
+  config.unlock_strategy = :email
+  config.maximum_attempts = 4
+
 end
