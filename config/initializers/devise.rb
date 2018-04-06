@@ -279,7 +279,7 @@ Devise.setup do |config|
   config.omniauth :twitter, "awOGX8TGBUIZoRSS0Pd8GqFtm",
     "5aFh5FjXZJGdDD2brxMeDjnyLfX7xkbWayQwOiuOBvhhggmlO2"
   # mail settings
-  config.mailer_sender = "メールアドレス"
+  config.mailer_sender = "playing.the.lone.wolf.as.alwa@gmail.com"
   # lock sessings
   config.unlock_strategy = :email
   config.maximum_attempts = 4
